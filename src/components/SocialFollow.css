@@ -1,0 +1,35 @@
+/* SOCIAL STUFF */
+.social-container {
+  flex-direction: row;
+  /* background: linear-gradient(120deg, #f37fca 0%, #8ec5fc); */
+  background: none;
+  padding: 25px auto;
+  text-align: center;
+  /* margin: 6em 0em; */
+  min-width: max-content;
+  /* color: white !important; */
+}
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  a.social:hover {
+    transform: translateY(-10px);
+    background: none;
+    box-shadow: none;
+  }
+
+  a.linkedin {
+    color: white;
+  }
+
+  a.github {
+    color: white;
+  }
+
+  a.twitter {
+    color: white;
+  }
+  

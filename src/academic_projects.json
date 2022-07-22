@@ -1,0 +1,73 @@
+[
+    {
+        "id":1,
+        "img":"http://hermanasmiranda.es/wp-content/uploads/2016/10/IMG_1899.gif",
+        "title":"Search",
+        "description_short":"A simple search engine in Java that calculates relevance using the pagerank algorithm. Can quickly index large corpuses and deliver instant query results.",
+        "description_long": [
+            "Executed the Page Rank algorithm for a search engine",
+            "Preprocessed XML files containing the corpus",
+            "Parsed, tokenized, and stemmed user input",
+            "Indexed a corpus with 5,000 pages in 8 minutes"
+        ]
+        
+
+    },
+    {
+        "id":2,
+        "img":"https://i.pinimg.com/564x/fe/f4/a8/fef4a80a253c528cb0f39fcb374baa39.jpg",
+        "title":"RedWood",
+        "description_short":"A smart contract written in Solidity that allows a user to swap different assets at an algorithmically determined price without the need for a trusted third party.",
+        "description_long":[
+            "Wrote smart contracts in Solidity for a decentralized exchange.",
+            "Implemented liquidity pool functionality so that more tokens could be added to the exchange",
+            "Utilized a local Ethereum development blockchain to ensure minimal gas was consumed during deployment",
+            "Unit tested with mocha framework"
+        ]
+    },
+    {
+        "id":3,
+        "img":"https://i.pinimg.com/474x/9e/64/a2/9e64a2a346265f3e35fa57b56e97ef66.jpg",
+        "title":"Shell",
+        "description_short":"A user-friendly C shell eqipped with job control and features like error checking, example command usage, and signal forwarding.",
+        "description_long":[
+            "Implemented a basic job control system -- where processes could run in the background while still allowing signal forwarding ",
+            "Handled basic commands in addition to prompting the user with example usages and error checking"
+        ]
+    },
+    {
+        "id":4,
+        "img":"https://i.pinimg.com/474x/94/55/2c/94552ce301df1e8bfd0e97e6b4e1a882.jpg",
+        "title":"Recommendation System",
+        "description_short":"A recommendation system in Java designed for to suggest student groups based on aggregated student data from multiple API endpoints and a SQL database",
+        "description_long":[
+            "Aggregated student data from multiple API endpoints and a SQL database to populate qualitative and quantitave data structures",
+            "Generated a list of similar students by combining results from Bloom filters and a k-d tree"
+        ]
+    },
+    {
+        "id":5,
+        "img":"https://i.pinimg.com/474x/55/fd/04/55fd04afbbe432948216a928ee272ae3.jpg",
+        "title":"BrunoCoin",
+        "description_short":"A simple cryptocurrency designed to run on one machine in a multithreaded environment and written in GoLang",
+        "description_long":[
+            "Designed and wrote functionality for the blockchain, miners, and wallets",
+            "Implemented transaction functionality between wallets",
+            "Broadcasated transactions/blocks to the network", 
+            "Mined transactions and validated blocks"
+        ]
+    },
+    {
+        "id":6,
+        "img":"https://i.pinimg.com/474x/c6/eb/19/c6eb1915cbb5f55c14ffd525ee5074a3.jpg",
+        "title":"Screen Reader",
+        "description_short":"A screen reading application in Typescript that makes web pages accessible for those with a visual disability. Includes navigation modalities and speed control.",
+        "description_long":[
+            "Implemented keyboard control commands for speed, pausing, and navigation",
+            "Included location awareness by reading the current node location on demand",
+            "Added four-directional navigation through HTML tables",
+            "Handled links and input fields while allowing users to continue reading"
+        ]
+    }
+
+]

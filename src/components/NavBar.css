@@ -1,0 +1,68 @@
+/*************************** NAV BAR ***************************/
+.nav-bar-header {
+    /* width: 100%;
+    height: 100vh;
+    background: url('https://i.pinimg.com/564x/10/5c/47/105c478ee7c5f4b74e9145f17e1cd967.jpg');
+    background-repeat: none; */
+  }
+  
+  #menu {
+    position: fixed;
+    right: 65px;
+    top: 15px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    z-index: 550;
+  }
+  
+  #sidenav {
+    padding: 100px 0px;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    top: 0;
+    right: 0;
+    z-index: 525;
+  }
+  
+  #sidenav ul li {
+    list-style: none;
+    transition: all .2s ease-in-out; 
+  }
+  
+  #sidenav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: calc(10px + 2vmin);
+    margin: 15px 30px;
+    font-family: 'Poppins-Regular';
+    padding: 10px;
+    
+  }
+
+  #sidenav ul li a:hover {
+    /* background: rgba(255,255,255,0.4);
+    transition: 0.4s */
+    /* transform: scale(1.1);  */
+    background: none;
+    box-shadow: none;
+  }
+  
+  #sidenav ul li:hover {
+    /* background: rgba(255,255,255,0.4);
+    transition: 0.4s */
+    transform: scale(1.1); 
+    background: none;
+    box-shadow: none;
+
+  }
+
+  #sidenav ul{
+    margin: -21px -43px;
+  }
+
+  

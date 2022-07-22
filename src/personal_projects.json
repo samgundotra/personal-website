@@ -1,0 +1,23 @@
+[
+    {
+        "id":1,
+        "emoji":"https://emoji.craftwork.design/images/modal/thought-balloon.png",
+        "title":"Fashion MNIST",
+        "description":"A 2D convolutional neural network to identify 10 different types of clothing. Inspiration for my personal app Zazz",
+        "repo": "https://github.com/samgundotra/Fashion_MNIST_Project"
+    },
+    {
+        "id":2,
+        "emoji":"https://emoji.craftwork.design/images/modal/sparkles.png",
+        "title":"Zazz",
+        "description":"An IOS app that tells users if the color of an item of clothing is flattering. Created an algorithm that computes a score out of 100 based on an input image of the user’s skin, and an image of an item of clothing. Utilized graphic design experience with different color models",
+        "repo": ""
+    },
+    {
+        "id":3,
+        "emoji":"https://emoji.craftwork.design/images/modal/blue-heart.png",
+        "title":"Vday@Brown",
+        "description":"Developed and designed a website where students could send anonymous virtual candy grams to their peers",
+        "repo": "https://vday-at-brown-9f5lmdzh7-samgundotra.vercel.app/"
+    }
+]

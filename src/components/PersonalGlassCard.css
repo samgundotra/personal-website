@@ -1,0 +1,196 @@
+
+.glass-personal-proj-title {
+    /* position: absolute;
+    top: -170px;
+    right: 54px;
+    left: 20px; */
+    position: relative;
+    padding: 33px;
+    display: flex;
+    background: rgba(255,255,255,0.05);
+    box-shadow: 0 15px 35px rgb(0 0 0 / 5%);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    z-index: 500;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    max-height: 2vh;
+    margin-right: 44px;
+    min-width: 21vh;
+  }
+  
+  .glass-personal-proj-title h2{
+    font-size: 2em;
+    color: #164269;
+    font-family: 'Consolas';
+    /* margin-bottom: 10px; */
+  }
+  
+  .glass-personal-box-content {
+    font-family: 'Consolas';
+    position: relative;
+    left: -25px;
+    padding: 60px 40px;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    transform: 0.5s;
+    color: #fff;
+  }
+  .glass-personal-box-content h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .glass-personal-box-content p {
+    font-size: 1.1em;
+    /* margin-bottom: 1.5em; */
+    line-height: 1.4em;
+  }
+
+  .mobile-personal-box-content {
+    font-family: 'Consolas';
+    position: relative;
+    left: 0px;
+    padding: 60px 40px;
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    transform: 0.5s;
+    color: #fff;
+  }
+  .mobile-personal-box-content h2 {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .mobile-personal-box-content p {
+    font-size: 1.1em;
+    /* margin-bottom: 1.5em; */
+    line-height: 1.4em;
+  }
+  
+  .no-link-repo {
+      text-decoration: none;
+      font-weight: 500;
+      color:#2a163f;
+      margin-left: 0px;
+      padding: 8px 10px;
+      border-radius: 25px;
+  }
+  
+  
+  /* .glass-card-container .glass-box .glass-box-content {
+    
+  }
+  
+  .glass-card-container .glass-box:hover .glass-box-content {
+    left: -25px;
+    padding: 60px 40px;
+  } */
+  
+  
+  .glass-box-personal {
+    position: relative;
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 30px;
+    transition: 0.5s;
+    flex-direction: column;
+  }
+
+  .mobile-glass-box-personal {
+    position: relative;
+    /* width: 400px; */
+    /* height: 400px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 18px;
+    transition: 0.5s;
+    flex-direction: column;
+  }
+  
+  .glass-personal-header-wrapper {
+    display: flex;
+    margin-left: -28px;
+    margin-bottom: -25px;
+    min-width: 20vh;
+  }
+  
+  .glass-personal-proj-emoji {
+    max-width: 307px;
+    margin-bottom: -4px;
+  }
+  
+  .glass-personal-proj-emoji img {
+    position: relative;
+    max-height: 154px;
+    z-index: 100;
+    margin-left: -111px;
+    margin-bottom: -64px;
+    margin-right: -39px;
+    margin-top: -51px;
+    animation: animate-emoji 2s linear infinite;
+  
+  }
+
+  .mobile-personal-proj-emoji {
+    max-width: 307px;
+    margin-bottom: -4px;
+  }
+  
+  .mobile-personal-proj-emoji img {
+    position: relative;
+    max-height: 142px;
+    z-index: 100;
+    margin-left: -120px;
+    margin-bottom: -64px;
+    margin-right: 3px;
+    margin-top: -48px;
+    animation: animate-emoji 2s linear infinite;
+}
+  
+  @keyframes animate-emoji {
+    0%,100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+  }
+
+  .link-repo {
+    /* margin-bottom: 1.5em; */
+    padding: 8px 0px;
+    transition: transform 250ms;
+  }
+
+  .link-repo:hover {
+    background: none;
+    box-shadow: none;
+    transform: translateY(-5px);
+  }
+
+  .repo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  

@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  background-color:  #F3EEE8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'TS-Block';
+  src: local('ts-block'), url('./fonts/TS-Block-Bold.woff2') format('woff2'),
+       url('./fonts/TS-Block-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: local('poppins-bold'), url('./fonts/poppins-bold-webfont.woff2') format('woff2'),
+       url('./fonts/poppins-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('poppins-regular'), url('./fonts/poppins-regular-webfont.woff2') format('woff2'),
+       url('./fonts/poppins-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apfel-Grotezk';
+  src: local('apfel-grotezk'), url('./fonts/ApfelGrotezk-Regular.woff2') format('woff2'),
+       url('./fonts/ApfelGrotezk-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Coconat-Regular';
+  src: local('coconat'), url('./fonts/Coconat-Regular.woff2') format('woff2'),
+       url('./fonts/Coconat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Coconat-Bold';
+  src: local('coconat'), url('./fonts/Coconat-BoldExt.woff2') format('woff2'),
+       url('./fonts/Coconat-BoldExt.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Consolas';
+  src: local('consolas'), url('./fonts/Consolas.woff2') format('woff2'),
+       url('./fonts/Consolas.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
