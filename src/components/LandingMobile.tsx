@@ -20,7 +20,7 @@ function LandingMobile(props: {img: string}) {
                 <div className='mobile-glass-box-personal'>
                 <div className='glass-personal-header-wrapper'>
                 <div className='mobile-personal-proj-title'>
-                    <h2>Hello!</h2>
+                    <h2>Hi I'm Sam!</h2>
                 </div>
                 </div>
             

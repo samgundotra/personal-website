@@ -357,6 +357,7 @@ a.logo {
 }
 
 a.glass-read-more {
+  font-family: 'Poppins-Regular';
   display: inline-block;
   padding: 5px 10px;
   background: #fff;
@@ -505,7 +506,7 @@ a.glass-read-more {
 
 .glass-personal-section .glass-personal-header h2 {
   font-family: 'Poppins-Regular';
-  color: #111;
+  color: #164269;
   margin-top: 50px;
   padding: 20px 50px;
   display: flex;
