@@ -187,7 +187,7 @@ function App() {
                 <img src='https://emoji.craftwork.design/images/modal/thought-balloon.png'></img>
               </div> */}
           {/* </div> */}
-          <SocialFollow />
+          <SocialFollow/>
           <p className='made-by-me'>Made with &#128151; by me. </p>
       </section>
 
