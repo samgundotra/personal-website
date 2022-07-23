@@ -38,6 +38,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className='nav-blur'></div>
       <NavBar/>
       {/* glass attempt */}
       {!isMobile && <LandingDesktop img={charHorse}/>}

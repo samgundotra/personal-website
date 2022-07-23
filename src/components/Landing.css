@@ -25,7 +25,7 @@
     backdrop-filter: blur(10px);
 }
 
-.mobile-personal-box-content {
+.mobile-landing-box-content {
     font-family: 'Consolas';
     position: relative;
     /* left: -25px; */
@@ -37,8 +37,15 @@
     z-index: 1;
     transform: 0.5s;
     color: #fff;
-  
   }
+
+  .mobile-landing-box-content p {
+    font-size: 1.1em;
+    /* margin-bottom: 1.5em; */
+    line-height: 1.4em;
+    color: #2a163f;
+    /* font-family: 'Poppins-Regular'; */
+}
 
 .mobile-landing-icon {
     max-width: 307px;
@@ -98,3 +105,4 @@
     font-family: 'Poppins-Regular';
     /* margin-bottom: 10px; */
 }
+

@@ -28,7 +28,7 @@ function PersonalGlassCard(props: {title:string, description: string, emoji:stri
           <p>{props.description}</p>
           {props.repo.length === 0 ? <p className='no-link-repo'>🚧 Coming soon 🚧</p> : 
           <div className='repo-container'>
-            <p className='no-link-repo'>Repo</p>
+            {/* <p className='no-link-repo'>Repo</p> */}
             <a className='link-repo'href={props.repo}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
           </div> }
         </div>

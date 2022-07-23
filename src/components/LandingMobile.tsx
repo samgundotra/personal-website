@@ -24,7 +24,7 @@ function LandingMobile(props: {img: string}) {
                 </div>
                 </div>
             
-                <div className='mobile-personal-box-content'>
+                <div className='mobile-landing-box-content'>
                 {/* <h2>Card One</h2> */}
                 <p>I am a rising junior at Brown University studying Computer Science. I love developing elegant products and taking project inspiration from my many passions. Check out my work below to learn more, and thank you for stopping by!</p>
                 <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu">Contact</a>
