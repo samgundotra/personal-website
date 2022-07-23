@@ -24,7 +24,11 @@ function LandingDesktop(props: {img : string}) {
                 <h2 className='glass-h2'>I'm Samantha Gundotra</h2>
                 <p className='glass-p'>I am a rising junior at Brown University studying Computer Science. I love developing elegant products and taking project inspiration from my many passions. Check out my work below to learn more, and thank you for stopping by!
                 </p>
-                <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu">Contact</a>
+                <div className="contact-resume">
+                  <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu">Contact</a>
+                  <a className='landing-resume' href="https://drive.google.com/file/d/1onlTbl3Nr5MqHCwC4HNkN14HlSvZxPqQ/view?usp=sharing">Resume</a>
+                </div>
+                
               </div>
               <div className='imgBox'>
                 <img src='https://emoji.craftwork.design/images/section-1-image-22@2x.png'></img>

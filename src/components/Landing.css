@@ -106,3 +106,9 @@
     /* margin-bottom: 10px; */
 }
 
+.contact-resume {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px;
+}
