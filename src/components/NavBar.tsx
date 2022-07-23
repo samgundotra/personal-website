@@ -25,7 +25,7 @@ function NavBar() {
             <li><a href="#personal-section">Personal</a></li>
             <li><a href="#prof-section">Experience</a></li>
             <li><a href="#skills-section">Skills</a></li>
-            <li><a href="#skills-section">Socials</a></li>
+            {/* <li><a href="#skills-section">Socials</a></li> */}
             {/* <li><a href="#">Mini-Blog</a></li> */}
           </ul>
         </section> }
