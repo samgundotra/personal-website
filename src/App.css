@@ -399,6 +399,7 @@ a.landing-resume {
 .imgBox img {
   max-width: 450px;
   animation: animate 5s linear infinite;
+  -webkit-transform:translate3d(0,0,0);
 
 }
 

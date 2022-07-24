@@ -39,7 +39,7 @@
         "id":4,
         "img":"https://i.pinimg.com/474x/94/55/2c/94552ce301df1e8bfd0e97e6b4e1a882.jpg",
         "title":"Recommendation System",
-        "description_short":"A recommendation system in Java designed for to suggest student groups based on aggregated student data from multiple API endpoints and a SQL database",
+        "description_short":"A recommendation system in Java designed to suggest student groups based on aggregated student data from multiple API endpoints and a SQL database",
         "description_long":[
             "Aggregated student data from multiple API endpoints and a SQL database to populate qualitative and quantitave data structures",
             "Generated a list of similar students by combining results from Bloom filters and a k-d tree"
@@ -49,7 +49,7 @@
         "id":5,
         "img":"https://i.pinimg.com/474x/55/fd/04/55fd04afbbe432948216a928ee272ae3.jpg",
         "title":"BrunoCoin",
-        "description_short":"A simple cryptocurrency designed to run on one machine in a multithreaded environment and written in GoLang",
+        "description_short":"A simple cryptocurrency in GoLang designed to run on one machine in a multithreaded environment",
         "description_long":[
             "Designed and wrote functionality for the blockchain, miners, and wallets",
             "Implemented transaction functionality between wallets",
