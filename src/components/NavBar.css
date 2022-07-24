@@ -17,7 +17,7 @@
 }
   
   #sidenav {
-    padding: 100px 0px;
+    padding: 100px 20px;
     position: fixed;
     width: 250px;
     height: 100%;
@@ -37,7 +37,7 @@
   #sidenav ul li a {
     text-decoration: none;
     color: white;
-    font-size: calc(20px + 2vmin);
+    font-size: 2rem;
     margin: 15px 30px;
     font-family: 'Poppins';
     padding: 10px;

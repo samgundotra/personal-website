@@ -22,7 +22,7 @@ function LandingDesktop(props: {img : string}) {
               </header>
               <div className='glass-content'>
                 <h2 className='glass-h2'>I'm Samantha Gundotra</h2>
-                <p className='glass-p'>I am a rising junior at Brown University studying Computer Science. I love developing elegant products and taking project inspiration from my many passions. Check out my work below to learn more, and thank you for stopping by!
+                <p className='glass-p'>I'm a junior at Brown University studying Computer Science. I love combining CS and design to build beautiful products. Check out my work below to learn more, and thank you for stopping by!
                 </p>
                 <div className="contact-resume">
                   <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu">Contact</a>

@@ -467,7 +467,7 @@ a.landing-resume {
   align-items: center;
   flex-wrap: wrap;
   padding: 33px 100px;
-  margin-bottom: -52px;
+  /* margin-bottom: -52px; */
   margin-top: 38px;
 }
 
