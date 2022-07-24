@@ -12,7 +12,7 @@ function LandingDesktop(props: {img : string}) {
         <section className='glass-section'>
           <div className='glass-container'>
               <header className='glass-header'>
-                <a href="#" className='logo'>Welcome</a>
+                <a className='logo'>Welcome</a>
                 <ul className='glass-ul'>
                   <li className='glass-li'><a className='active' href='#academic-section'>Academics</a></li>
                   <li className='glass-li'><a className='glass-a' href='#personal-section'>Personal</a></li>

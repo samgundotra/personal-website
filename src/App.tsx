@@ -45,6 +45,7 @@ function App() {
       {isMobile && <LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png'/>}
       {/* <LandingIntro/> */}
       <div id='academic-section' className='glass-card-wrapper'>
+        <div className='academic-test'></div>
         <header className='glass-academic-header'>
                 <h2 className='glass-h2'>Academic Projects</h2>
         </header>

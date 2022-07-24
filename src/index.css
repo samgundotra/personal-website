@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
 body {
   margin: 0;
   background-color:  #F3EEE8;
@@ -7,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
 }
 
 code {
@@ -30,13 +33,13 @@ code {
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: 'Poppins-Regular';
   src: local('poppins-regular'), url('./fonts/poppins-regular-webfont.woff2') format('woff2'),
        url('./fonts/poppins-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: 'Apfel-Grotezk';
