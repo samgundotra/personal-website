@@ -15,6 +15,16 @@
     cursor: pointer;
     z-index: 550;
 }
+
+#menu-mobile {
+  color: #fff;
+  cursor: pointer;
+  font-size: 40px;
+  position: fixed;
+  right: 34px;
+  top: 10px;
+  z-index: 550;
+}
   
   #sidenav {
     padding: 100px 20px;
@@ -28,6 +38,7 @@
     right: 0;
     z-index: 525;
   }
+
   
   #sidenav ul li {
     list-style: none;

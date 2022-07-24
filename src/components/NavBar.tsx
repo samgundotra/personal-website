@@ -2,12 +2,14 @@ import React, { useState } from "react";
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { useMediaQuery } from "react-responsive";
 
 
 
 
 function NavBar() {
     const [navOpen, setNavOpen] = useState(false);
+    const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
 
     const handleNav = () => {
         setNavOpen(!navOpen)
@@ -15,7 +17,7 @@ function NavBar() {
 
     return (  
     <header className='nav-bar-header'>
-        <FontAwesomeIcon icon={navOpen ? faXmark : faBars} id='menu' onClick={handleNav}/>
+        <FontAwesomeIcon icon={navOpen ? faXmark : faBars} id={isMobile ? 'menu-mobile' :'menu'} onClick={handleNav}/>
         {/* <i className="fa-solid fa-bars" aria-hidden="true" id="menu"></i> */}
         {navOpen &&
         <section id="sidenav">
