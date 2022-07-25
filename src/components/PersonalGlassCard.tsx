@@ -26,11 +26,13 @@ function PersonalGlassCard(props: {title:string, description: string, emoji:stri
         <div className={isMobile ? 'mobile-personal-box-content' : 'glass-personal-box-content'}>
           {/* <h2>Card One</h2> */}
           <p>{props.description}</p>
-          {props.repo.length === 0 ? <p className='no-link-repo'>🚧 Coming soon 🚧</p> : 
           <div className='repo-container'>
+            {props.repo.length === 0 ? <p className='no-link-repo'>🚧 Coming soon 🚧</p> : 
+            <a className='repo-button' href={props.repo}>Repo</a>
+            }
             {/* <p className='no-link-repo'>Repo</p> */}
-            <a className='link-repo'href={props.repo}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a>
-          </div> }
+            {/* <a className='link-repo'href={props.repo}><FontAwesomeIcon icon={faArrowUpRightFromSquare}/></a> */}
+          </div> 
         </div>
       </div>
   );

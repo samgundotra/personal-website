@@ -23,7 +23,7 @@
   
   .glass-personal-proj-title h2{
     font-size: 2em;
-    color: white;
+    color: #164269;
     font-family: 'Poppins';
     /* margin-bottom: 10px; */
   }
@@ -71,7 +71,7 @@
   }
   .mobile-personal-box-content h2 {
     font-size: 2em;
-    color: #fff;
+    color: #164269;
     margin-bottom: 10px;
     /* font-family: 'Poppins'; */
   }
@@ -84,7 +84,7 @@
     /* font-family: 'Poppins'; */
   }
   
-  .no-link-repo {
+  /* .no-link-repo {
       text-decoration: none;
       font-weight: 500;
       color:#2a163f;
@@ -92,6 +92,18 @@
       padding: 8px 10px;
       border-radius: 25px;
       font-family: 'Poppins';
+  } */
+
+  .no-link-repo {
+    padding: 8px 15px;
+    border-radius: 25px;
+
+
+    /* background: rgba(255,255,255,0.8); */
+    background: #164269;
+    font-family: 'Consolas';
+    color: white !important;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
   }
   
   
@@ -199,3 +211,15 @@
     align-items: center;
   }
   
+  .repo-button {
+    background: #164269;
+    color: white;
+    font-family: 'Consolas';
+    box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  }
+
+  .repo-button:hover {
+    transition: 0.3s;
+    background: white;
+    color: #164269;
+  }
