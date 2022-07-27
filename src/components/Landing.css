@@ -226,3 +226,9 @@
     transform: rotate(180deg);
     background-size: cover;
   }
+
+.mobile-about-box-content h2 {
+        font-size: calc(40px + 2vmin);
+        color: #2a163f;
+        font-weight: 800;
+}
