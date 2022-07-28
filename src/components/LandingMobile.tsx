@@ -29,8 +29,18 @@ function LandingMobile(props: {img: string}) {
                 {/* <h2>Card One</h2> */}
                 <p>I'm a junior at Brown University studying Computer Science. I love combining CS and design to build beautiful products. Check out my work below to learn more, and thank you for stopping by!</p>
                 <div className="contact-resume">
-                  <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu">Contact</a>
-                  <a className='landing-resume' href="https://drive.google.com/file/d/1onlTbl3Nr5MqHCwC4HNkN14HlSvZxPqQ/view?usp=sharing">Resume</a>
+                  <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu">Contact  
+                    {/* <svg className="main-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
+                      <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
+                    </svg> */}
+                    </a>
+                  <a className='landing-resume' href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:f446918d-7b7b-32da-85e8-0c3e872010a6">Resume  
+                    {/* <svg className="main-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
+                      <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
+                    </svg> */}
+                  </a>
                 </div>
                 </div>
             </div>
@@ -61,10 +71,10 @@ function LandingMobile(props: {img: string}) {
                   <p>I built this website from scratch using React JS 👩🏽‍💻 Inspiration comes from <a href="https://www.pinterest.com/samgundotra/ui-inspo/">this pinterest board.</a> </p>
                   <ul>Things I don't get tired of:
                     <li>Collaging</li>
-                    <li>Pho</li>
+                    <li>My two frenchies</li>
                     <li>Depop</li>
                     <li>Creating Notion templates</li>
-                    <li>Selling Sunset on Netflix</li>
+                    <li>Pho</li>
                     <li>Making pinterest boards that I probably forget about</li>
                   </ul>
                 </div>

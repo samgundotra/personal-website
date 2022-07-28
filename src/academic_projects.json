@@ -9,7 +9,8 @@
             "Preprocessed XML files containing the corpus",
             "Parsed, tokenized, and stemmed user input",
             "Indexed a corpus with 5,000 pages in 8 minutes"
-        ]
+        ],
+        "course":"Data Structures and Algorithms"
         
 
     },
@@ -23,7 +24,8 @@
             "Implemented liquidity pool functionality so that more tokens could be added to the exchange",
             "Utilized a local Ethereum development blockchain to ensure minimal gas was consumed during deployment",
             "Unit tested with mocha framework"
-        ]
+        ],
+        "course": "Blockchains & Cryptocurrencies"
     },
     {
         "id":3,
@@ -33,17 +35,19 @@
         "description_long":[
             "Implemented a basic job control system -- where processes could run in the background while still allowing signal forwarding ",
             "Handled basic commands in addition to prompting the user with example usages and error checking"
-        ]
+        ],
+        "course": "Intro to Computer Systems"
     },
     {
         "id":4,
         "img":"https://i.pinimg.com/474x/94/55/2c/94552ce301df1e8bfd0e97e6b4e1a882.jpg",
         "title":"Recommendation System",
-        "description_short":"A recommendation system in Java designed to suggest student groups based on aggregated student data from multiple API endpoints and a SQL database",
+        "description_short":"A recommendation system in Java designed to suggest student groups based on aggregated data from multiple API endpoints and a SQL database",
         "description_long":[
             "Aggregated student data from multiple API endpoints and a SQL database to populate qualitative and quantitave data structures",
             "Generated a list of similar students by combining results from Bloom filters and a k-d tree"
-        ]
+        ],
+        "course":"Intro to Software Engineering"
     },
     {
         "id":5,
@@ -55,7 +59,8 @@
             "Implemented transaction functionality between wallets",
             "Broadcasated transactions/blocks to the network", 
             "Mined transactions and validated blocks"
-        ]
+        ],
+        "course": "CSCI 1951L: Blockchains & Cryptocurrencies"
     },
     {
         "id":6,
@@ -67,7 +72,8 @@
             "Included location awareness by reading the current node location on demand",
             "Added four-directional navigation through HTML tables",
             "Handled links and input fields while allowing users to continue reading"
-        ]
+        ],
+        "course":"Intro to Software Engineering"
     }
 
 ]

@@ -80,14 +80,14 @@
 
 .mobile-landing-icon .mobile-img {
     position: relative;
-    max-height: 227px;
+    max-height: 208px;
     /* z-index: 600; */
     margin-left: 159px;
     margin-bottom: -223px;
     /* margin-right: -39px; */
     margin-top: -13px;
     animation: animate-emoji 2s linear infinite;
-    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
     z-index: 1;
 }
 
@@ -231,4 +231,8 @@
         font-size: calc(40px + 2vmin);
         color: #2a163f;
         font-weight: 800;
+}
+
+.main-navigation__current-svg {
+    margin-left: 10px;
 }

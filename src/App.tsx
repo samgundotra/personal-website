@@ -56,6 +56,7 @@ function App() {
                 <AcademicCard key={project.id}
                     title={project.title}
                     description={project.description_short}
+                    course={project.course}
                   />
                 )
             })

@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px 30px;
+    margin: 50px 30px;
     transition: 0.5s;
     overflow: visible;
     -webkit-backface-visibility: hidden;
@@ -156,7 +156,7 @@
   }
   
   .glass-card-container .glass-box:hover span::before {
-    top: -50px;
+    top: -80px;
     left: 50px;
     width: 100px;
     height: 100px;
@@ -182,11 +182,13 @@
   
   
   .glass-card-container .glass-box:hover span::after {
-    bottom: -50px;
+    bottom: -95px;
     right: 50px;
     width: 100px;
     height: 100px;
     opacity: 1;
+    position: absolute;
+    z-index: -1 !important;
   }
   
   @keyframes animate-card {
@@ -227,7 +229,7 @@
   
   .glass-card-container .glass-box .glass-box-content p {
     font-size: 1.1em;
-    margin-bottom: 1em;
+    margin-bottom: 0.4em;
     line-height: 1.4em;
   }
   
@@ -286,4 +288,41 @@
     border-radius: 20px;
     backdrop-filter: blur(10px);
     /* border: 1px solid rgba(255,255,255,0.25); */
+  }
+
+  .decorative-line {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    opacity: 80%;
+    border-radius: 20px;
+  }
+
+  .course {
+    background: rgba(255,255,255,0.2);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+    border-radius: 20px;
+  }
+
+  .course p {
+    font-size: 0.5em;
+  }
+
+  .course-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+  }
+
+  .course-text {
+    font-size: 0.9em !important;
+    padding: 8px 15px;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.25);
+    font-family: 'Consolas';
+    color: white !important;
   }

@@ -376,6 +376,11 @@ a.glass-read-more {
   font-weight: 400;
   text-decoration: none;
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  transition: all .2s ease-in-out;
+}
+
+a.glass-read-more:hover {
+  transform: scale(1.1);
 }
 
 a.landing-resume {
@@ -390,6 +395,11 @@ a.landing-resume {
   font-weight: 400;
   text-decoration: none;
   box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+  transition: all .2s ease-in-out;
+}
+
+a.landing-resume:hover {
+  transform: scale(1.1);
 }
 
 .imgBox {
