@@ -20,15 +20,14 @@ function NavBar() {
         <FontAwesomeIcon icon={navOpen ? faXmark : faBars} id={isMobile ? 'menu-mobile' :'menu'} onClick={handleNav}/>
         {/* <i className="fa-solid fa-bars" aria-hidden="true" id="menu"></i> */}
         {navOpen &&
-        <section id="sidenav">
+        <section id={isMobile ? 'sidenav-mobile' :'sidenav'}>
           <ul onClick={handleNav}>
             <li><a href="#">Home</a></li>
+            <li><a href="#about-me-section">About</a></li>
             <li><a href="#academic-section">Academics</a></li>
             <li><a href="#personal-section">Personal</a></li>
             <li><a href="#prof-section">Experience</a></li>
             <li><a href="#skills-section">Skills</a></li>
-            {/* <li><a href="#skills-section">Socials</a></li> */}
-            {/* <li><a href="#">Mini-Blog</a></li> */}
           </ul>
         </section> }
       </header>
