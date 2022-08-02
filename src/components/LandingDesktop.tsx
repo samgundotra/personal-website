@@ -41,12 +41,38 @@ function LandingDesktop(props: {img : string}) {
               <div className='imgBox'>
                 <img src='https://emoji.craftwork.design/images/section-1-image-22@2x.png'></img>
               </div>
-              {/* <ul className='sci'>
-                <li><a href='#'><img src={facebook}></img></a></li>
-                <li><a href='#'><img src={twitter}></img></a></li>
-                <li><a href='#'><img src={instagram}></img></a></li>
-              </ul> */}
           </div>
+          <div id="about-me-section" className='landing-card-container'>
+                <div className='mobile-glass-box-personal'>
+                  
+                <div className='desktop-personal-pic'>
+                  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG34L54kPzS4A/profile-displayphoto-shrink_400_400/0/1597249710921?e=1664409600&v=beta&t=ps32BQ-uQPMwZpokGsN8vldmIDRyGJESfnfZmx7Bftg"></img>
+                </div>
+                
+                <div className='mobile-about-box-content'>
+                  <h2 className="glass-h2">A little bit about me... 👋🏽</h2>
+                  <p>I am a California native navigating my way through Rhode Island winters 🌱 </p>
+                  <p>I am the proud sister of a Solana dev 🛠️<a href="https://twitter.com/ngundotra"> @ngundotra</a> </p>
+                  <p>I built this website from scratch using React JS 👩🏽‍💻 Inspiration comes from <a href="https://www.pinterest.com/samgundotra/ui-inspo/">this pinterest board.</a> </p>
+                  <ul>My current favorites:
+                    <li>Collaging</li>
+                    <li>My two frenchies</li>
+                    <li>Depop</li>
+                    <li>Creating Notion templates</li>
+                    <li>Pho</li>
+                    <li>Making pinterest boards that I probably forget about</li>
+                  </ul>
+                </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
         </section>
       </div>
 
