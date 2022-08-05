@@ -50,6 +50,7 @@
     line-height: 1.4em;
     color: #2a163f;
     font-family: 'Poppins';
+    font-weight: 400;
     }
 
 .mobile-landing-icon {
@@ -129,6 +130,7 @@
     font-size: 2em;
     color: white;
     font-family: 'Poppins';
+    font-weight: 600;
     /* margin-bottom: 10px; */
 }
 
@@ -206,6 +208,7 @@
     list-style-type: square;
     /* color: #5a486c; */
     color: #2a163f;
+    font-size: 1.2em;
 }
 
 .mobile-about-box-content li {
@@ -213,6 +216,7 @@
     padding: 2px 0px;
     /* color: #5a486c; */
     color: #2a163f;
+    font-size: 1em;
 }
 
 
@@ -221,6 +225,7 @@
     /* font-size: calc(10px + 2vmin); */
     /* color: #5a486c; */
     color: #2a163f;
+
 }
 
 .gradient-container {
@@ -242,7 +247,7 @@
 .mobile-about-box-content h2 {
         font-size: calc(40px + 2vmin);
         color: #2a163f;
-        font-weight: 800;
+        font-weight: 600;
 }
 
 .main-navigation__current-svg {

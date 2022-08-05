@@ -305,7 +305,7 @@ s154,161,340,158s374-62,394-138s-28-121-83-123" */
 
 a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   color:#2a163f;
   padding: 8px 15px;
   border-radius: 25px;
@@ -318,7 +318,7 @@ a:hover, a:active {
 
 .logo {
   color: #2a163f;
-  font-weight: 700;
+  font-weight: 500;
   text-decoration: none;
   font-size: 2em;
 }
@@ -336,6 +336,8 @@ a:hover, a:active {
   list-style: none;
   margin: 0 10px;
 }
+
+
 
 .glass-content {
   transform: translate(-80px);
@@ -355,7 +357,7 @@ a:hover, a:active {
 .glass-h2 {
   font-size: calc(40px + 2vmin);
   color: #2a163f;
-  font-weight: 800;
+  font-weight: 600;
   /* -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; */
 }
@@ -911,5 +913,5 @@ a.landing-resume:hover {
   top: 0;
   right: 0;
   z-index: 525;
-  transition: 0.6s;
+  transition: 1s;
 }
