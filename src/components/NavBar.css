@@ -16,8 +16,8 @@
   /* top: 1%; */
   padding: -29px;
   /* margin-right: 1.5em; */
-  margin-bottom: 10px;
-  margin-top: 10px;
+  /* margin-bottom: 10px; */
+  /* margin-top: 10px; */
   opacity: 90%;
   z-index: 550;
 }
@@ -183,5 +183,8 @@
   z-index: 550;
   align-items: center;
   justify-content: flex-end;
+  /* padding: 1% 0%; */
   padding-right: 3%;
+  padding-bottom: 2%;
+  /* padding-top: 1%; */
 }
