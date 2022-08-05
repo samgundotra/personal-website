@@ -10,14 +10,20 @@ import { useMediaQuery } from "react-responsive";
 function NavBar() {
     const [navOpen, setNavOpen] = useState(false);
     const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
+    const [navBlurOn, setNavBlur] = useState(true);
 
     const handleNav = () => {
         setNavOpen(!navOpen)
+        console.log('click')
+        // setNavBlur(!navBlurOn)
     }
 
-    return (  
+    return ( 
     <header className='nav-bar-header'>
+      {!navOpen && <div className='nav-blur'></div>}
+      <div className="icon-container">
         <FontAwesomeIcon icon={navOpen ? faXmark : faBars} id={isMobile ? 'menu-mobile' :'menu'} onClick={handleNav}/>
+      </div>
         {/* <i className="fa-solid fa-bars" aria-hidden="true" id="menu"></i> */}
         {navOpen &&
         <section id={isMobile ? 'sidenav-mobile' :'sidenav'}>

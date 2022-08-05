@@ -34,11 +34,13 @@ import Timeline from './components/Timeline';
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const className = isMobile ? 'mobile-glass-box-personal' : 'glass-box-personal';
+  const [navBlurOn, setNavBlur] = useState(true);
+
   
 
   return (
     <div className="App">
-      <div className='nav-blur'></div>
+      {/* <div className='nav-blur'></div> */}
       <NavBar/>
       {/* glass attempt */}
       {!isMobile && <LandingDesktop img={charHorse}/>}

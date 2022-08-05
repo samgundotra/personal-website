@@ -898,17 +898,18 @@ a.landing-resume:hover {
 }
 
 .nav-blur {
-    display: flex;
-    width: 100%;
-    /* padding: 100px 0px; */
-    position: fixed;
-    width: 100%;
-    height: 8vh;
-    /* background: rgba(255, 255, 255, 0.2); */
-    -webkit-backdrop-filter: blur(30px);
-    backdrop-filter: blur(30px);
-    box-shadow: 0 15px 35px rgb(0 0 0 / 5%);
-    top: 0;
-    right: 0;
-    z-index: 525;
+  display: flex;
+  width: 100%;
+  /* padding: 100px 0px; */
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  /* background: rgba(255, 255, 255, 0.2); */
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 15px 35px rgb(0 0 0 / 5%);
+  top: 0;
+  right: 0;
+  z-index: 525;
+  transition: 0.6s;
 }
