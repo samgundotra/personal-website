@@ -19,9 +19,10 @@
 #menu-mobile {
   color: #fff;
   cursor: pointer;
-  font-size: calc(1vw + 1vh + 8vmin);
-  position: fixed;
-  right: 34px;
+  font-size: calc(1vw + 8vmin);
+  position: absolute;
+  right: 35px;
+  /* left: 35px; */
   top: 10px;
   padding: -29px;
   z-index: 550;
@@ -90,7 +91,7 @@
   z-index: 525;
   /* transition: ; */
   /* transition: all .5s ease-in-out; */
-  animation: growDown 300ms ease-in-out forwards;
+  /* animation: growDown 300ms ease-in-out forwards; */
 
   /* -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
