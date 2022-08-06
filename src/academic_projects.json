@@ -53,7 +53,7 @@
         "id":5,
         "img":"https://i.pinimg.com/474x/55/fd/04/55fd04afbbe432948216a928ee272ae3.jpg",
         "title":"BrunoCoin",
-        "description_short":"A simple cryptocurrency in GoLang designed to run on one machine in a multithreaded environment",
+        "description_short":"A simple cryptocurrency in GoLang designed to run on one machine in a multithreaded environment. Implemented functionality for miners, wallets, and transactions.",
         "description_long":[
             "Designed and wrote functionality for the blockchain, miners, and wallets",
             "Implemented transaction functionality between wallets",

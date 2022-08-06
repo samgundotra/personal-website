@@ -104,6 +104,7 @@ function App() {
               description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsum a saepe, ipsa eveniet earum vero deleniti corporis dolor sunt?'
           /> */}
         </div>
+        <h3 className='glass-h3'>* repositories are unavailable to the public so courses can continue using the same projects.</h3>
       </div>
 
       <section className='glass-personal-section'>
