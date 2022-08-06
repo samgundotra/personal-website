@@ -749,7 +749,7 @@ a.landing-resume:hover {
 }
 
 .mobile-skills {
-  font-family: 'Consolas';
+  font-family: 'Poppins';
   position: relative;
   /* left: -25px; */
   /* padding: 55px 37px; */
@@ -786,9 +786,14 @@ a.landing-resume:hover {
   margin: 8px;
 }
 
+#skills-section h2 {
+  margin-left: 10px;
+}
+
 .prof-personal-box-content h2 {
   font-family: 'Poppins';
   margin: 5px 0px;
+  margin-left: 10px;
 }
 
 .mobile-skills p {
@@ -809,21 +814,19 @@ a.landing-resume:hover {
   color: #000;
   margin: 8px;
 }
-.mobile-skills h2 {
-  font-family: 'Poppins';
-  margin: 5px 0px;
-}
 
 
 .mobile-skills h3 {
   font-family: 'Poppins';
   font-size: 1.8em;
-  color:#000;
+  color: #000;
   opacity: 90%;
   font-weight: 600;
-  margin-top: 25px ;
+  margin-top: 25px;
   margin-bottom: 5px;
-  margin-left: 10px
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 
@@ -836,12 +839,14 @@ a.landing-resume:hover {
 .prof-personal-box-content h3 {
   font-family: 'Poppins';
   font-size: 1.8em;
-  color:#000;
+  color: #000;
   opacity: 90%;
   font-weight: 600;
-  margin-top: 25px ;
+  margin-top: 25px;
   margin-bottom: 5px;
-  margin-left: 10px
+  display: flex;
+  margin-left: 10px;
+  justify-content: flex-start;
 }
 
 .skills-subdivision {
