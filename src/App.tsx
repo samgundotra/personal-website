@@ -50,7 +50,7 @@ function App() {
       <NavBar/>
       {/* glass attempt */}
       {!isMobile && <LandingDesktop img={charHorse}/>}
-      {isMobile && <LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png'/>}
+      {isMobile && <div className='mobile-landing-wrapper'><LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png'/></div>}
       {/* <LandingIntro/> */}
 
 
