@@ -35,14 +35,17 @@
     position: relative;
     /* left: -25px; */
     padding: 55px 37px;
+    padding-bottom: 33px;
     background: rgba(255,255,255,0.2);
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
     border-radius: 20px;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     z-index: 1;
     transform: 0.5s;
     color: #fff;
-  }
+    /* margin-bottom: 74px; */
+}
 
   .mobile-landing-box-content p {
     font-size: calc(0.5vw + 1vh + 2vmin);

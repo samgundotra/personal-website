@@ -30,8 +30,8 @@ function NavBar() {
           <ul onClick={handleNav}>
             <li><a href="#">Home</a></li>
             <li><a href="#about-me-section">About</a></li>
-            <li><a href="#academic-section">Academics</a></li>
-            <li><a href="#personal-section">Personal</a></li>
+            <li><a href="#academic-section">Academic Projects</a></li>
+            <li><a href="#personal-section">Passion Projects</a></li>
             <li><a href="#prof-section">Experience</a></li>
             <li><a href="#skills-section">Skills</a></li>
           </ul>

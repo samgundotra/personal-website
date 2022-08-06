@@ -16,7 +16,7 @@ function LandingDesktop(props: {img : string}) {
                 <ul className='glass-ul'>
                 <li className='glass-li'><a className='glass-a' href='#about-me-section'>About</a></li>
                   <li className='glass-li'><a className='glass-a' href='#academic-section'>Academics</a></li>
-                  <li className='glass-li'><a className='glass-a' href='#personal-section'>Personal</a></li>
+                  <li className='glass-li'><a className='glass-a' href='#personal-section'>Passion Projects</a></li>
                   <li className='glass-li'><a className='glass-a' href='#prof-section'>Experience</a></li>
                   <li className='glass-li'><a className='glass-a' href='#skills-section'>Skills</a></li>
                 </ul>

@@ -29,13 +29,19 @@ import charHorse from './horse-icon-3d.png'
 import chainGlass from './chain_glass.png'
 import pinkAbs from './pink-abstract.jpeg'
 import Timeline from './components/Timeline';
-
+import Carousel from "react-elastic-carousel";
 
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const className = isMobile ? 'mobile-glass-box-personal' : 'glass-box-personal';
   const [navBlurOn, setNavBlur] = useState(true);
 
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2 },
+    { width: 768, itemsToShow: 3 },
+    { width: 1200, itemsToShow: 4 },
+  ];
   
 
   return (
@@ -46,13 +52,35 @@ function App() {
       {!isMobile && <LandingDesktop img={charHorse}/>}
       {isMobile && <LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png'/>}
       {/* <LandingIntro/> */}
-      <div id='academic-section' className='glass-card-wrapper'>
+
+
+
+
+      <div  className='glass-card-wrapper'>
         <div className='academic-test'></div>
-        <header className='glass-academic-header'>
+        <header id='academic-section' className='glass-academic-header'>
                 <h2 className='glass-h2'>Academic Projects</h2>
         </header>
-        <div className='glass-card-container'>
 
+        {/* <Carousel breakPoints={breakPoints} useKeyboardArrows={true} swipeable={true}>
+          <div className='carousel__item'>
+          <AcademicCard
+                    title="hi"
+                    description="hello"
+                    course="meow"
+                  />
+          </div>
+          <div className='carousel__item'>Two</div>
+          <div className='carousel__item'>Three</div>
+          <div className='carousel__item'>Four</div>
+          <div className='carousel__item'>Five</div>
+          <div className='carousel__item'>Six</div>
+          <div className='carousel__item'>Seven</div>
+          <div className='carousel__item'>Eight</div>
+        </Carousel> */}
+
+
+        <div className='glass-card-container'>
             {AcademicProjects && AcademicProjects.map( project => {
               return (
                 <AcademicCard key={project.id}
@@ -78,9 +106,10 @@ function App() {
         </div>
       </div>
 
-      <section id='personal-section' className='glass-personal-section'>
-          <header className='glass-personal-header'>
-                  <h2 className='glass-h2'>Personal Projects</h2>
+      <section className='glass-personal-section'>
+          <header id='personal-section' className='glass-personal-header'>
+                  <h2 className='glass-h2'>Passion Projects</h2>
+                  {/* <h3>Projects completed on my free time with the intention to learn as I go, and solve real problems in my life.</h3> */}
           </header>
           <div className='personal-card-container'>
           {PersonalProjects && PersonalProjects.map( proj => {
@@ -133,8 +162,8 @@ function App() {
         </div>
       </section> */}
 
-      <section id='prof-section' className={isMobile ? 'mobile-prof-section':'prof-section'}>
-          <header className='prof-personal-header'>
+      <section  className={isMobile ? 'mobile-prof-section':'prof-section'}>
+          <header id='prof-section' className='prof-personal-header'>
                   <h2 className='glass-h2'>Professional Experience</h2>
           </header>
           <Timeline/>
