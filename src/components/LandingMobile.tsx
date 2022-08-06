@@ -27,7 +27,7 @@ function LandingMobile(props: {img: string}) {
             
                 <div className='mobile-landing-box-content'>
                 {/* <h2>Card One</h2> */}
-                <p>My name is Samantha Gundotra and I'm a junior at Brown University studying Computer Science. I love combining CS and design to build beautiful products. Check out my work below to learn more, and thank you for stopping by!</p>
+                <p>My name is Samantha Gundotra and I'm a junior at Brown University studying Computer Science. I am a designer, a learner, and an aspiring software engineer. Beautiful products and tiny details bring me joy :) Check out my work below to learn more, and shoot me an email if you like what you see.</p>
                 <div className="contact-resume">
                   <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu?subject=Greetings!">Contact  
                     <svg className="mobile-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
