@@ -46,6 +46,9 @@
     color: #fff;
     /* margin-bottom: 74px; */
     height: 40%;
+    /* margin: 10px 217px; */
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
 }
 
   .mobile-landing-box-content p {
@@ -90,10 +93,11 @@
     margin-left: 159px;
     margin-bottom: -223px;
     /* margin-right: -39px; */
-    margin-top: -13px;
+    /* margin-top: -13px; */
     animation: animate-emoji 2s linear infinite;
     -webkit-transform: translate3d(0,0,0);
     z-index: 1;
+    top: 16px;
 }
 
 .mobile-personal-header-wrapper {
