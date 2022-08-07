@@ -31,7 +31,7 @@ function LandingDesktop(props: {img : string}) {
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
                     </svg></a>
-                  <a className='landing-resume' href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:1da4ff3c-2597-3674-b0eb-ff5ccbd4eddb">Resume  
+                  <a className='landing-resume' href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:427e054e-1cd2-34e7-b9a7-848ab2380d8b">Resume  
                     <svg className="main-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
@@ -60,7 +60,7 @@ function LandingDesktop(props: {img : string}) {
                     <li>My two frenchies</li>
                     <li>Depop</li>
                     <li>Creating Notion templates</li>
-                    <li>Pho</li>
+                    <li>Candle making</li>
                     <li>Making pinterest boards that I probably forget about</li>
                   </ul>
                 </div>
