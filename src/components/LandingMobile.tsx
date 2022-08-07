@@ -10,10 +10,6 @@ function LandingMobile(props: {img: string}) {
     return (
       <div className="gradient-container">
         <section className='mobile-landing-section'>
-            {/* <header className='glass-personal-header'>
-                    <h2 className='glass-h2'>Hi, my name is</h2>
-            </header> */}
-            
             <div className='glass-card-container'>
                 <div className='mobile-landing-icon'>
                     <img src={props.img} className='mobile-img'></img>
@@ -26,7 +22,6 @@ function LandingMobile(props: {img: string}) {
                 </div>
             
                 <div className='mobile-landing-box-content'>
-                {/* <h2>Card One</h2> */}
                 <p>My name is Samantha Gundotra and I'm a junior at Brown University studying Computer Science. I am a designer, a learner, and an aspiring software engineer. Beautiful products and tiny details bring me joy :) Check out my work below to learn more, and shoot me an email if you like what you see.</p>
                 <div className="contact-resume">
                   <a className='glass-read-more' href="mailto: samantha_gundotra@brown.edu?subject=Greetings!">Contact  
@@ -44,17 +39,6 @@ function LandingMobile(props: {img: string}) {
                 </div>
                 </div>
             </div>
-              {/* <PersonalGlassCard
-                title="Samantha Gundotra"
-                description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ipsum a saepe, ipsa eveniet earum vero deleniti corporis dolor sunt?"
-                emoji='https://emoji.craftwork.design/images/modal/thought-balloon.png'
-              /> */}
-              {/* <header className='glass-personal-header'>
-                <a href="#" className='logo'>Personal Projects</a>
-              </header>
-              <div className='imgBox'>
-                <img src='https://emoji.craftwork.design/images/modal/thought-balloon.png'></img>
-              </div> */}
           </div>
           
           <div id="about-me-section" className='glass-card-container'>
