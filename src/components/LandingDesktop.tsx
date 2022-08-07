@@ -31,7 +31,7 @@ function LandingDesktop(props: {img : string}) {
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
                     </svg></a>
-                  <a className='landing-resume' href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:f446918d-7b7b-32da-85e8-0c3e872010a6">Resume  
+                  <a className='landing-resume' href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:1da4ff3c-2597-3674-b0eb-ff5ccbd4eddb">Resume  
                     <svg className="main-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
