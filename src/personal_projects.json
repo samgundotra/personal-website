@@ -1,10 +1,10 @@
 [
     {
         "id":1,
-        "emoji":"https://emoji.craftwork.design/images/modal/thought-balloon.png",
-        "title":"Fashion MNIST",
-        "description":"A 2D convolutional neural network to identify 10 different types of clothing. Inspiration for my personal app Zazz",
-        "repo": "https://github.com/samgundotra/Fashion_MNIST_Project"
+        "emoji":"https://emoji.craftwork.design/images/modal/blue-heart.png",
+        "title":"Vday@Brown",
+        "description":"Developed and designed a website where students could send anonymous virtual candy grams to their peers",
+        "repo": "https://github.com/samgundotra/brown-vday"
     },
     {
         "id":2,
@@ -15,9 +15,9 @@
     },
     {
         "id":3,
-        "emoji":"https://emoji.craftwork.design/images/modal/blue-heart.png",
-        "title":"Vday@Brown",
-        "description":"Developed and designed a website where students could send anonymous virtual candy grams to their peers",
-        "repo": "https://github.com/samgundotra/brown-vday"
+        "emoji":"https://emoji.craftwork.design/images/modal/thought-balloon.png",
+        "title":"Fashion MNIST",
+        "description":"A 2D convolutional neural network to identify 10 different types of clothing. Inspiration for my personal app Zazz",
+        "repo": "https://github.com/samgundotra/Fashion_MNIST_Project"
     }
 ]

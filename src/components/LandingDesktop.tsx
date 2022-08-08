@@ -58,10 +58,9 @@ function LandingDesktop(props: {img : string}) {
                   <ul>My current favorites:
                     <li>Collaging</li>
                     <li>My two frenchies</li>
-                    <li>Depop</li>
+                    <li>Depop hunting</li>
                     <li>Creating Notion templates</li>
                     <li>Candle making</li>
-                    <li>Making pinterest boards that I probably forget about</li>
                   </ul>
                 </div>
             </div>

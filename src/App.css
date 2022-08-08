@@ -139,9 +139,10 @@ html {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 40px 40px;
+  padding: 40px 0px;
   align-items: stretch;
 }
+
 .personal-projects {
   /* background-color: #090909; */
   border-color: #ffffff;
