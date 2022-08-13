@@ -310,6 +310,7 @@ a {
   color:#2a163f;
   padding: 8px 15px;
   border-radius: 25px;
+  transition: 0.4s;
 }
 
 a:hover, a:active {
@@ -823,7 +824,7 @@ a.landing-resume:hover {
   color: #000;
   opacity: 90%;
   font-weight: 600;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 5px;
   margin-left: 10px;
   display: flex;
