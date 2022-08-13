@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import './AcademicCard.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub
+} from "@fortawesome/free-brands-svg-icons";
+
 
 
 function AcademicCard(props: {title:string, description: string, course: string}) {
@@ -23,6 +28,12 @@ function AcademicCard(props: {title:string, description: string, course: string}
             </div>   
           </div>
           }
+          {/* <a
+      href="https://github.com/samgundotra"
+      className="github"
+    >
+      <FontAwesomeIcon icon={faGithub} size="2x" />
+    </a> */}
         </div>
     </div>
   );

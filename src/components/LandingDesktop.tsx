@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import './Landing.css';
-import SocialFollow from "./SocialFollow";
 // import { emoj } from 'https://emoji.craftwork.design/images/section-1-image-22@2x.png';
 
+import { Document, Page, pdfjs } from 'react-pdf/dist/umd/entry.webpack';
+// import samplePdf from '/public/robots.txt'
 
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 function LandingDesktop(props: {img : string}) {
+
     return (
         <div className='glass-wrapper'>
         <section className='glass-section'>
@@ -22,7 +25,8 @@ function LandingDesktop(props: {img : string}) {
                 </ul>
               </header>
               <div className='glass-content'>
-                <h2 className='glass-h2'>I'm Samantha Gundotra</h2>
+                <h2 className='glass-h2'>Hi, I'm Sam.</h2>
+                <h3 className="header-h3">It's nice to meet you. 👋🏽</h3>
                 <p className='glass-p'>My name is Samantha Gundotra and I'm a junior at Brown University studying Computer Science. I am a designer, a learner, and an aspiring software engineer. Beautiful products and tiny details bring me joy :) Check out my work below to learn more, and shoot me an email if you like what you see.
                 </p>
                 <div className="contact-resume">
@@ -31,7 +35,8 @@ function LandingDesktop(props: {img : string}) {
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
                     </svg></a>
-                  <a className='landing-resume' href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:427e054e-1cd2-34e7-b9a7-848ab2380d8b">Resume  
+                    {/* <Document file="./public/samantha_gundotra_resume.pdf" onLoadError={console.error} /> */}
+                  <a className='landing-resume' href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:427e054e-1cd2-34e7-b9a7-848ab2380d8b" target="_blank">Resume  
                     <svg className="main-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>

@@ -311,3 +311,12 @@
     overflow: hidden;
     transform: scale(0.8);
 }
+
+.header-h3 {
+    font-size: calc(5px + 2vmin);
+    font-weight: 600;
+    color: #2a163f;
+    padding: 0px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
