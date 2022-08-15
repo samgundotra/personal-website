@@ -58,7 +58,7 @@ function LandingDesktop(props: {img : string}) {
                 <div className='mobile-about-box-content'>
                   <h2 className="glass-h2">A little bit about me... 👋🏽</h2>
                   <p>I am a California native navigating my way through Rhode Island winters 🌱 </p>
-                  <p>I am the proud sister of a Solana dev 🛠️<a href="https://twitter.com/ngundotra"> @ngundotra</a> </p>
+                  <p>I am the proud sister of a Solana dev 🛠️ <a href="https://twitter.com/ngundotra">@ngundotra</a> </p>
                   <p>I built this website from scratch using React JS 👩🏽‍💻 All inspiration comes from <a href="https://www.pinterest.com/samgundotra/ui-inspo/">this pinterest board.</a> </p>
                   <ul>My current favorites:
                     <li>Collaging</li>
