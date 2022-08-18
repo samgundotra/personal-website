@@ -15,7 +15,7 @@ import Timeline from './components/Timeline';
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
   const className = isMobile ? 'mobile-glass-box-personal' : 'glass-box-personal';
-  const [navBlurOn, setNavBlur] = useState(true);
+  const [showNav, setShowNav] = useState(true);
 
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -27,9 +27,9 @@ function App() {
 
   return (
     <div className="App">
-      <NavBar/>
       {!isMobile && <LandingDesktop img={charHorse}/>}
       {isMobile && <div className='mobile-landing-wrapper'><LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png'/></div>}
+      <NavBar/>
       <div  className='glass-card-wrapper'>
         <div className='academic-test'></div>
         <header id='academic-section' className='glass-academic-header'>

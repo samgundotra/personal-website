@@ -11,6 +11,7 @@ html {
   scroll-behavior: smooth !important;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -283,6 +284,7 @@ s154,161,340,158s374-62,394-138s-28-121-83-123" */
   padding: 50px;
   flex-direction: row;
   margin: 100px 0px;
+  margin-bottom: 0px;
 }
 
 

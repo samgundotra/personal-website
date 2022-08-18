@@ -49,7 +49,7 @@ function LandingDesktop(props: {img : string}) {
               </div>
           </div>
           <div className='landing-card-container'>
-                <div className='mobile-glass-box-personal'>
+                <div className='mobile-glass-box-personal-about'>
                   
                 <div id="about-me-section" className='desktop-personal-pic'>
                   <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG34L54kPzS4A/profile-displayphoto-shrink_400_400/0/1597249710921?e=1664409600&v=beta&t=ps32BQ-uQPMwZpokGsN8vldmIDRyGJESfnfZmx7Bftg"></img>

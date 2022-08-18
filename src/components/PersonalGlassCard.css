@@ -143,6 +143,22 @@
     flex-direction: column;
   }
 
+  .mobile-glass-box-personal-about {
+    position: relative;
+    /* width: 400px; */
+    /* height: 400px; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px -22px;
+    transition: 0.5s;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+
+
   .glass-personal-header-wrapper {
     display: flex;
     margin-left: -28px;
