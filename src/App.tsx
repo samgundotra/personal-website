@@ -24,11 +24,12 @@ function App() {
     { width: 1200, itemsToShow: 4 },
   ];
   
+  const description = "My name is Samantha Gundotra and I'm a junior at Brown University studying Computer Science. I am a designer, learner, and aspiring software engineer. I love building clean, usable and accessible products."
 
   return (
     <div className="App">
-      {!isMobile && <LandingDesktop img={charHorse}/>}
-      {isMobile && <div className='mobile-landing-wrapper'><LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png'/></div>}
+      {!isMobile && <LandingDesktop img={charHorse} description={description}/>}
+      {isMobile && <div className='mobile-landing-wrapper'><LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png' description={description}/></div>}
       <NavBar/>
       <div  className='glass-card-wrapper'>
         <div className='academic-test'></div>
