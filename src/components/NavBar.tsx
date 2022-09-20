@@ -24,6 +24,9 @@ function NavBar() {
       <div className="icon-container">
         <FontAwesomeIcon icon={navOpen ? faXmark : faBars} id={isMobile ? 'menu-mobile' :'menu'} onClick={handleNav}/>
       </div>
+      <div className="icon-container2">
+        <a href='#'>Resume</a>
+      </div>
         {/* <i className="fa-solid fa-bars" aria-hidden="true" id="menu"></i> */}
         {navOpen &&
         <section id={isMobile ? 'sidenav-mobile' :'sidenav'}>

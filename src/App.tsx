@@ -24,7 +24,7 @@ function App() {
     { width: 1200, itemsToShow: 4 },
   ];
   
-  const description = "My name is Samantha Gundotra and I'm a junior at Brown University studying Computer Science. I am a designer, learner, and aspiring software engineer. I love building clean, usable and accessible products."
+  const description = "My name is Sam and I’m a junior at Brown University studying Computer Science. I believe that design and creativity should be playful and collaborative. I synthesize my technical expertise and affinity for design to create refined and accessible products."
 
   return (
     <div className="App">
