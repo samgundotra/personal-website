@@ -11,6 +11,7 @@ import LandingDesktop from './components/LandingDesktop';
 import NavBar from './components/NavBar';
 import charHorse from './horse-icon-3d.png'
 import Timeline from './components/Timeline';
+import StableAI from './components/StableAI';
 
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
@@ -36,6 +37,7 @@ function App() {
         <header id='academic-section' className='glass-academic-header'>
                 <h2 className='glass-h2'>Academic Projects</h2>
         </header>
+        {/* <StableAI/> */}
 
         <div className='glass-card-container'>
             {AcademicProjects && AcademicProjects.map( project => {

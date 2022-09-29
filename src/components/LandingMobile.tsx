@@ -46,7 +46,7 @@ function LandingMobile(props: {img: string, description: string}) {
                 <div className='mobile-glass-box-personal-about'>
                   
                 <div className='mobile-personal-pic'>
-                  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG34L54kPzS4A/profile-displayphoto-shrink_400_400/0/1597249710921?e=1664409600&v=beta&t=ps32BQ-uQPMwZpokGsN8vldmIDRyGJESfnfZmx7Bftg"></img>
+                  <img src="https://media-exp1.licdn.com/dms/image/C4E03AQG34L54kPzS4A/profile-displayphoto-shrink_400_400/0/1597249710921?e=1669852800&v=beta&t=oQjf-H4xrtn1o_JNbQ804J0f28s91atuP2kU0tLr7m4"></img>
                 </div>
                 
                 <div className='mobile-about-box-content'>
