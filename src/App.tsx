@@ -12,6 +12,7 @@ import NavBar from './components/NavBar';
 import charHorse from './horse-icon-3d.png'
 import Timeline from './components/Timeline';
 import StableAI from './components/StableAI';
+import { profile } from 'console';
 
 function App() {
   const isMobile = useMediaQuery({ query: '(max-width: 1000px)' });
@@ -63,8 +64,10 @@ function App() {
               return (
                 <PersonalGlassCard key={proj.id}
                   title={proj.title}
+                  projectType={proj.projectType}
                   description={proj.description}
                   emoji={proj.emoji}
+                  linkDescription={proj.linkDescription}
                   repo={proj.repo}
                 />
                 )

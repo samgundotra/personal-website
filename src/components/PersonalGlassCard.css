@@ -157,6 +157,15 @@
     margin-top: 0px;
   }
 
+  .proj-type {
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #446888 ! important;
+    align-items: center;
+    display: flex;
+    /* justify-content: space-between; */
+}
+
 
 
   .glass-personal-header-wrapper {
