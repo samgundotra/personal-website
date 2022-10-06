@@ -27,11 +27,11 @@ function App() {
   ];
   
   const description = "My name is Sam and I’m a junior at Brown University studying Computer Science. I believe that design and creativity should be playful and collaborative. I synthesize my technical expertise and affinity for design to create refined and accessible products."
-
+  const resume_link = 'https://drive.google.com/file/d/1IZNWqlajz91DFiVBGbaEq33ICArn-W6q/view?usp=sharing'
   return (
     <div className="App">
-      {!isMobile && <LandingDesktop img={charHorse} description={description}/>}
-      {isMobile && <div className='mobile-landing-wrapper'><LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png' description={description}/></div>}
+      {!isMobile && <LandingDesktop img={charHorse} description={description} resume={resume_link}/>}
+      {isMobile && <div className='mobile-landing-wrapper'><LandingMobile img='https://superscene.pro/images/modal/victory-hand-dark.png' description={description} resume={resume_link}/></div>}
       <NavBar/>
       <div  className='glass-card-wrapper'>
         <div className='academic-test'></div>

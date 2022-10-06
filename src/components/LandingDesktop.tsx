@@ -8,7 +8,7 @@ import { Document, Page, pdfjs } from 'react-pdf/dist/umd/entry.webpack';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
-function LandingDesktop(props: {img : string, description: string}) {
+function LandingDesktop(props: {img : string, description: string, resume:string}) {
 
     return (
         <div className='glass-wrapper'>
@@ -35,7 +35,7 @@ function LandingDesktop(props: {img : string, description: string}) {
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
                     </svg></a>
                     {/* <Document file="./public/samantha_gundotra_resume.pdf" onLoadError={console.error} /> */}
-                  <a className='landing-resume' href="https://drive.google.com/file/d/1DvhKSOIh3jrVjhPCyGd1ne4pL_1s5hCH/view?usp=sharing" target="_blank">Resume  
+                  <a className='landing-resume' href={props.resume} target="_blank">Resume  
                     <svg className="main-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
