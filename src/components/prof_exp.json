@@ -1,14 +1,21 @@
 [
     {
-        "id":1,
-        "icon":"https://media-exp2.licdn.com/dms/image/C560BAQERB9GqfLjuJA/company-logo_100_100/0/1617703765131?e=1666224000&v=beta&t=sj9-DPxoJCGSZnxjyTYGQhNvJ5uBrTDyiGJgnYoozwE",
+        "id":0,
+        "icon":"https://pbs.twimg.com/profile_images/1447976566433189892/bms8GwG__400x400.jpg",
+        "title":"Head Teaching Assistant",
+        "description":"HTA for Introduction to Software Engineering at Brown University (CSCI 0320). Carefully selected a staff of 20 undergraduate TAs for Spring 2023. Responsibilites include training the staff, assisting with grading rubrics, and leading course development.",
+        "time": "November 2022 – Present"
+    },
+    {
+        "id":2,
+        "icon":"https://i.ibb.co/ZTXMGcg/medicircle.png",
         "title":"MediCircle Website Intern",
         "description":"Designed vector components and proposed what is now the current website layout. Pushed towards a cohesive brand identity suitable for their age demographic.",
         "time": "February 2022 – June 2022"
     },
     {
-        "id":2,
-        "icon":"https://media-exp2.licdn.com/dms/image/C4E0BAQEK5eP7BQ975w/company-logo_100_100/0/1536101998106?e=1666224000&v=beta&t=4hK0IPb78CBdOeLOo0ak4Oj2xJa3VJo9JQi8dUc5hbs",
+        "id":3,
+        "icon":"https://pbs.twimg.com/profile_images/1447976566433189892/bms8GwG__400x400.jpg",
         "title":"Undergraduate Teaching Assistant",
         "description":"UTA for Program Design with Data Structures and Algorithms at Brown University (CSCI0200). Held 4 hours of TA hours a week for a class of over 400 students and served as a mentor during partner projects. Revised course material to incorporate ReasonML into assignments. Incoming UTA for Software Engineering (CSCI0320) in Fall 2022.",
         "time": "Jan 2022 – May 2022"
@@ -16,8 +23,8 @@
 
     },
     {
-        "id":3,
-        "icon":"https://media-exp2.licdn.com/dms/image/C4D0BAQFJr0zSxCsaPQ/company-logo_100_100/0/1519897647872?e=1666224000&v=beta&t=y4ZM0JQ4_Pi3ERnrhENBVI92LydrrGAfe19EfiR13qw",
+        "id":4,
+        "icon":"https://i.ibb.co/7yTrzWt/images-q-tbn-ANd9-Gc-RS6ck-F5-Xf8b56mn-Kr4-SMIYy-PI5-A1-AT4-Eh-SNRQqfz6zl-Bby-Xe2x-N3-BKyw-Hzu2eb2-Y.png",
         "title":"Demo Day First-Place Winner",
         "description":"Served as a mentee in a semester-long workshop that culminates in competitive pitches. Won first-place and secured seed funding for the proposal of a roommate cohabitation app to improve finding alone time in dorms.",
         "time": "Sep 2021 - Dec 2021"
@@ -25,14 +32,14 @@
 
     },
     {
-        "id":4,
+        "id":5,
         "icon": "https://cdn-icons-png.flaticon.com/512/3159/3159310.png",
         "title":"Freelance Graphic Designer",
         "description": "Utilized proficiency in Photoshop and Illustrator to help local businesses modernize their brand. Jobs included designing custom iMessage stickers for boutiques to send to customers. On my own time, I designed 15 Snapchat community filters which are now active in places like Florence, Italy and Puerto Vallarta, Mexico. My filters have accumulated 32.2 million views total and 532K uses.",
         "time": "Jul 2018 - Sep 2020"
     },
     {
-        "id":5,
+        "id":6,
         "icon":"https://www.romantiqueslingerie.com/wp-content/uploads/2021/12/1.png.webp",
         "title":"Salesperson at Romantiques",
         "description":"Learned to assist customers and actively work to maintain relationships with frequent customers. I contributed my graphic design skills by creating a set of gifs and stickers personalized for the store which included cartoonized versions of their best-selling products.",

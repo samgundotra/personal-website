@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import './Landing.css';
 // import { emoj } from 'https://emoji.craftwork.design/images/section-1-image-22@2x.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowAltCircleRight, faArrowCircleRight, faArrowRight, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 import { Document, Page, pdfjs } from 'react-pdf/dist/umd/entry.webpack';
 // import headshot from '/headshot.jpeg'
@@ -8,7 +10,7 @@ import { Document, Page, pdfjs } from 'react-pdf/dist/umd/entry.webpack';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
-function LandingDesktop(props: {img : string, description: string, resume:string}) {
+function LandingDesktop(props: {img : string, description: string, resume:string, prof_pic:string}) {
 
     return (
         <div className='glass-wrapper'>
@@ -17,11 +19,12 @@ function LandingDesktop(props: {img : string, description: string, resume:string
               <header className='glass-header'>
                 <a className='logo'>Welcome</a>
                 <ul className='glass-ul'>
-                <li className='glass-li'><a className='glass-a' href='#about-me-section'>About</a></li>
+                  {/* <li className='glass-li'><a className='glass-a' href='#about-me-section'>About</a></li>
                   <li className='glass-li'><a className='glass-a' href='#academic-section'>Academics</a></li>
                   <li className='glass-li'><a className='glass-a' href='#personal-section'>Passion Projects</a></li>
                   <li className='glass-li'><a className='glass-a' href='#prof-section'>Experience</a></li>
-                  <li className='glass-li'><a className='glass-a' href='#skills-section'>Skills</a></li>
+                  <li className='glass-li'><a className='glass-a' href='#skills-section'>Skills</a></li> */}
+                  <li className="glass-li"><a className='glass-a' href='https://effervescent-travesseiro-edc6e9.netlify.app/'>View Design Portfolio <FontAwesomeIcon icon={faArrowRight}/></a></li>
                 </ul>
               </header>
               <div className='glass-content'>
@@ -51,7 +54,7 @@ function LandingDesktop(props: {img : string, description: string, resume:string
                 <div className='mobile-glass-box-personal-about'>
                   
                 <div id="about-me-section" className='desktop-personal-pic'>
-                  <img src='https://media-exp1.licdn.com/dms/image/D4E03AQHjxfdykEI9gw/profile-displayphoto-shrink_400_400/0/1665532361511?e=1671062400&v=beta&t=VNTObkr6sRXPDkauuZnRSxFhaHZw13wMuu7yAkl9olw'></img>
+                  <img src={props.prof_pic}></img>
                 </div>
                 
                 <div className='mobile-about-box-content'>

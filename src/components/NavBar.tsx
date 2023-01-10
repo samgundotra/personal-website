@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import './NavBar.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
+import { faArrowAltCircleRight, faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useMediaQuery } from "react-responsive";
 
 
@@ -21,6 +21,7 @@ function NavBar() {
     return ( 
     <header className='nav-bar-header'>
       {!navOpen && <div className='nav-blur'></div>}
+
       <div className="icon-container">
         <FontAwesomeIcon icon={navOpen ? faXmark : faBars} id={isMobile ? 'menu-mobile' :'menu'} onClick={handleNav}/>
       </div>
@@ -45,19 +46,3 @@ function NavBar() {
 
 
 export default NavBar;
-
-
-// <header className='nav-bar-header'>
-//         <FontAwesomeIcon icon={ faBars } id='menu' onClick={handleNav}/>
-//         {/* <i className="fa-solid fa-bars" aria-hidden="true" id="menu"></i> */}
-//         {navOpen &&
-//         <section id="sidenav">
-//           <ul>
-//             <li><a href="#">Home</a></li>
-//             <li><a href="#">Academics</a></li>
-//             <li><a href="#">Personal</a></li>
-//             <li><a href="#">Professional</a></li>
-//           </ul>
-//         </section> }
-        
-//       </header>

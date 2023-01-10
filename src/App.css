@@ -312,7 +312,7 @@ a {
   color:#2a163f;
   padding: 8px 15px;
   border-radius: 25px;
-  transition: 0.4s;
+  transition: 0.1s;
 }
 
 a:hover, a:active {
