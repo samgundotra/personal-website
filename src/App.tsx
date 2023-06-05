@@ -42,7 +42,7 @@ function App() {
         {/* <StableAI/> */}
 
         <div className='glass-card-container'>
-            {AcademicProjects && AcademicProjects.map( project => {
+            {AcademicProjects && AcademicProjects.slice(0,6).map( project => {
               return (
                 <AcademicCard key={project.id}
                     title={project.title}
