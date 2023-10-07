@@ -1,9 +1,16 @@
 [
     {
         "id":0,
+        "icon":"https://i.ibb.co/GJcsjns/holition.png",
+        "title":"Software Engineer Intern",
+        "description":"Software Engineer Intern for Holition Ltd in London. Contributed to six web AR experiences for one of their luxury fragrance clients. Worked closely on scenes with BabylonJS and produced a dynamic glass material to replicate the core client product and focal point of the AR experience. Gained exposure to webGL and developed an ocean fragment shader. Included a GUI for the creative team to experiment with scene properties.",
+        "time": "June 2023 – August 2023"
+    },
+    {
+        "id":1,
         "icon":"https://pbs.twimg.com/profile_images/1447976566433189892/bms8GwG__400x400.jpg",
         "title":"Head Teaching Assistant",
-        "description":"HTA for Introduction to Software Engineering at Brown University (CSCI 0320). Carefully selected a staff of 20 undergraduate TAs for Spring 2023. Responsibilites include training the staff, assisting with grading rubrics, and leading course development.",
+        "description":"HTA for Introduction to Software Engineering at Brown University (CSCI 0320). Carefully selected a staff of 20 undergraduate TAs for Spring and Fall 2023. Responsibilites include training the staff, assisting with grading rubrics, and leading course development.",
         "time": "November 2022 – Present"
     },
     {
@@ -46,5 +53,4 @@
         "time": "May 2017 - Jul 2018"
     }
     
-
 ]

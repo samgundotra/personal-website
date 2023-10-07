@@ -11,7 +11,6 @@ import LandingDesktop from './components/LandingDesktop';
 import NavBar from './components/NavBar';
 import charHorse from './horse-icon-3d.png'
 import Timeline from './components/Timeline';
-import StableAI from './components/StableAI';
 import { profile } from 'console';
 
 function App() {
@@ -88,39 +87,40 @@ function App() {
             <h3 className='glass-h3'>Languages</h3>
             <div className='skill-container'>
               <p>Java</p>
-              <p>C</p>
               <p>Python</p>
               <p>Solidity</p>
               <p>HTML</p>
-              <p>CSS</p>
-              <p>Scala</p>
+              <p>CSS/SCSS</p>
               <p>Javascript</p>
               <p>Typescript</p>
               <p>Go</p>
               <p>ReasonML</p>
-              <p>Swift</p>
+              <p>C++</p>
             </div>
           </div>
           <div className='skills-subdivision'>
           <h3 className='glass-h3'>Toolkits</h3>
             <div className='skill-container'>
-                <p>React</p>
                 <p>TensorFlow</p>
                 <p>Numpy</p>
                 <p>Xcode</p>
+                <p>Git</p>
             </div>
           </div>
           <div className='skills-subdivision'>
             <h3 className='glass-h3'>Frameworks</h3>
               <div className='skill-container'>
+                <p>Angular</p>
+                <p>Babylon.js</p>
+                <p>React.js</p>
+                <p>Spline</p>
                 <p>Illustrator</p>
                 <p>Photoshop</p>
                 <p>Premiere Pro</p>
                 <p>Figma</p>
                 <p>SwiftUI</p>
-                <p>Mocha</p>
                 <p>Unity</p>
-                <p>JUnit</p>
+                <p>Selenium</p>
               </div>
             </div>
           </div>

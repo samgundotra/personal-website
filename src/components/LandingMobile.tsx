@@ -31,12 +31,12 @@ function LandingMobile(props: {img: string, description: string, resume: string,
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
                     </svg>
                     </a>
-                  <a className='landing-resume' href={props.resume} target="_blank">Resume  
+                  {/* <a className='landing-resume' href={props.resume} target="_blank">Resume  
                     <svg className="mobile-navigation__current-svg" viewBox="0 0 9 14" width="9" height="14" xmlns="http://www.w3.org/2000/svg">
                       <path d="M8.0166 6.99998L6.87975 8.13683L0.219466 1.57206L1.42035 0.40378L8.0166 6.99998Z" fill="currentColor"></path>
                       <path d="M6.87975 5.86314L8.0166 6.99998L1.42041 13.5962L0.260401 12.3108L6.87975 5.86314Z" fill="currentColor"></path>
                     </svg>
-                  </a>
+                  </a> */}
                 </div>
                 </div>
             </div>

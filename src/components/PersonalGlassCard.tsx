@@ -12,7 +12,6 @@ function PersonalGlassCard(props: {title:string, description: string, emoji:stri
   
   
     return (
-      
         <div className={className}>
         <div className={isMobile ? 'mobile-personal-header-wrapper' : 'glass-personal-header-wrapper'}>
            <div className='glass-personal-proj-title'>
